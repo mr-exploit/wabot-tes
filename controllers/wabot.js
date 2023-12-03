@@ -1,7 +1,7 @@
 const { Client, LocalAuth, LegacySessionAuth } = require('whatsapp-web.js');
 
 const client = new Client();
-
+// https://www.youtube.com/watch?v=4wraM6VYisM&t=830s&ab_channel=KarsimPedia
 const deviceConnect = async(req, res) => {
     console.log("cek req qr");
     try {
